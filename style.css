@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  display: flex;
+  background-color: whitesmoke;
+  height: 7vh;
+}
+
+nav div{
+  display: flex;
+  align-items: center;
+  flex: 50%;
+}
+
+nav div.kiri{
+  padding-left: 90px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 40px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover{
+  background-color: white;
+  color: rgb(26, 25, 25);
+  border: none;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+
+nav div.kanan{
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav div.kanan a{
+  text-decoration: none;
+  background-color: rgb(235, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+
+nav div.kanan a:hover{
+  background-color:white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+
+.container{
+  display: flex;
+  height: 97vh;
+  align-items: center;
+  flex: 80%;
+  /* background-color: rgb(32, 27, 27); */
+
+
+}
+
+.container .content-kiri{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 90px;
+  /* background-color: gray; */
+}
+
+
+
+
+.content-kiri .profile p{
+  /* text-align: justify; */
+  padding: 20px;
+}
+
+.download{
+  display: flex;
+  padding-top: 20px;
+}
+
+.download a{
+  text-decoration: none;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  padding: 5px 20px;
+  margin-right: 30px;
+}
+
+.download div img{
+  width: 15px;
+}
+
+.sosmed{
+  display: flex;
+  padding: 30px;
+  /* object-fit: cover; */
+}
+
+.sosmed img{
+  padding: 10px;
+  width: 60px;
+}
+
+.content-kanan .card{
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-right: 90px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.content-kanan .card img{
+  width: 400px;
+  border-radius: 5px;
+}
+
+.content-kanan .card h3{
+  text-align: center;
+}
+.content-kanan .card p{
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form form{
+  align-items: center;
+  background-color: whitesmoke;
+  width: 400px;
+}
+
+.form form input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form form select{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form form textarea{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form .button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  background-color: orangered;
+  padding: 10px;
+}
+
+form .button button{
+  border: none;
+  background-color: orangered;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 10px;
+}
+
+div h1{
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.container-web{
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+  flex: 80%;
+}
+
+.container-web .tampilan-kiri{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 90px;
+  margin-right: 90px;
+}
+
+.tampilan-kiri .foto img{
+  width: 100%;
+}
+.container-web .tampilan-kanan{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.container-web .tampilan-kanan h6{
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.container-web .tampilan-kanan .waktu{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-web .tampilan-kanan .waktu div{
+  padding: 10px;
+}
+
+.tampilan-kanan .waktu div label{
+  padding-left: 10px;
+  
+}
+
+.container-web .tampilan-kanan .teknologi-atas{
+  display: flex;
+  /* flex-wrap: wrap; */}
+
+.container-web .tampilan-kanan .teknologi{
+  display: flex;
+  }
+  
+

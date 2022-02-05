@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contac Me</title>
+</head>
+<body>
+  <nav>
+    <div>
+      <div class="kiri">
+        <a href="">
+          <img src="assets/logo.png" alt="">
+        </a>
+
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="">My Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="kanan">
+        <a href="contac.html">
+          contact Me
+        </a>
+      </div>
+  </div>
+  </nav>
+
+  <div class="form">
+    <form action="">
+      <div>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email">
+      </div>
+
+      <div>
+        <label for="phone">Phone</label>
+        <input type="text" id="phone">
+      </div>
+
+      <div>
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject">
+          <option value="laki">Laki</option>
+          <option value="perempuan">Perempuan</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage"></textarea>
+      </div>
+      <div class="button">
+        <button type="button" onclick="SubmitForm()">Submit</button>
+      </div>
+      
+    </form>
+  </div>
+</body>
+<script src="form.js"></script>
+</html>
